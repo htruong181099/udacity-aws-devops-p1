@@ -1,11 +1,14 @@
 # CD12352 - Infrastructure as Code Project Solution
-# [YOUR NAME HERE]
+# Hoang Truong Minh
 
 ## Spin up instructions
-TODO
+./create.sh udacity-devops-p1-network network.yml network-parameters.json
+./create.sh udacity-devops-p1-udagram udagram.yml udagram-parameters.json
 
 ## Tear down instructions
-TODO
+./delete.sh udacity-devops-p1-network
+./delete.sh udacity-devops-p1-udagram
 
 ## Other considerations
-TODO (optional)
+./update.sh udacity-devops-p1-network network.yml network-parameters.json
+./update.sh udacity-devops-p1-udagram udagram.yml udagram-parameters.json
