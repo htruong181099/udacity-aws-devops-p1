@@ -1,6 +1,18 @@
 [
 	{
-		"ParameterKey": "Add you parameters here",
-		"ParameterValue": "Add you parameters here"
-	}
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "UdacityDevopsP1"
+    },
+	{
+        "ParameterKey": "EBSVolumnSize",
+        "ParameterValue": "10"
+    },
+	{
+        "ParameterKey": "ImageId",
+        "ParameterValue": "ami-0557a15b87f6559cf"
+    },
+	{
+        "ParameterKey": "S3BucketName",
+        "ParameterValue": "htm14-udacity-p1-s3-bucket"
+    }
 ]
